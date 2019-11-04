@@ -6,6 +6,11 @@ body {
     height: 100%;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
 input{
     color: #6AAAC9;
     font-weight: bold;
