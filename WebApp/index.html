@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="./data/lib/brython/brython.js"></script>
+    <script src="./data/lib/brython/brython_stdlib.js"></script>
+
+    <script src="./data/js/index.js"></script>
+    <link rel="stylesheet" href="./data/css/index.css">
+
+    <title>ESimulation</title>
+</head>
+<body onload="brython()">
+
+    <span>Possible Outcomes:</span>
+    <input type="text" id="PO", placeholder="Possible Outcomes" value="0, 1">
+
+    <br>
+
+    <span>Base Of Possible Outcomes:</span>
+    <input type="text" id="BASE", placeholder="Base" value="10">
+
+    <br>
+
+    <span>How Many Times To Run:</span>
+    <input type="text" id="TIMES", placeholder="Times" value="100">
+
+    <br>
+
+    <span>How Many Simulations Per Time:</span>
+    <input type="text" id="SIMS", placeholder="Simulations" value="10">
+
+    <br> <br>
+
+
+    <select id="Type of Result">
+        <option value="SimpleResult">Simple Result</option>
+        <option value="RawResult">Raw Result</option>
+    </select>
+    
+    <br> <br>
+
+    <button id="RUN">RUN</button>
+
+    <br><br>
+
+    <div id="RESULT">{ RESULT }</div>
+
+    <script type="text/python" src="./data/lib/index.py"></script>
+
+</body>
+</html>
