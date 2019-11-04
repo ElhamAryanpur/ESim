@@ -1,6 +1,8 @@
 # ESim
 Let's simulate possible outcomes on number of times!
 
+[Test](WebApp/index.html)
+
 ## USAGE
 First of all, import it (DUH!)
 `import ESim`
