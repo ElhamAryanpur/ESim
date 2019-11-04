@@ -1,7 +1,7 @@
 # ESim
 Let's simulate possible outcomes on number of times!
 
-[Test](WebApp/Help.md)
+[Online Demo](WebApp/Help.md)
 
 ## USAGE
 First of all, import it (DUH!)
