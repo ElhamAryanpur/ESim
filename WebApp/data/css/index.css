@@ -1,0 +1,32 @@
+body {
+    background: #121920;
+}
+
+input{
+    color: #6AAAC9;
+    font-weight: bold;
+    background: rgb(42, 66, 78);
+    border-color: #6AAAC9;
+    font-size: 20px;
+}
+
+span, div {
+    color: #6AAAC9;
+    font-weight: bold;
+}
+
+button {
+    color: #6AAAC9;
+    background: rgb(42, 66, 78);
+    font-weight: bold;
+    border: 0;
+    font-size: 30px;
+}
+
+select{
+    color: #6AAAC9;
+    background: rgb(42, 66, 78);
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
